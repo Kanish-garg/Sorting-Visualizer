@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const server = require("http").createServer(app);
 
-server.listen(1337);
+server.listen(137);
 
 app.use(express.static(__dirname + "/../client"));
 
